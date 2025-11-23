@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Hi Yixuan',
+  title: 'Xinrong\'s Maker Blog',
   tagline: 'Building, Learning, and Creating',
   favicon: 'img/favicon.ico',
 
@@ -23,7 +23,7 @@ const config = {
   url: 'https://Sunny156-hungry.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/my-maker-blog/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
