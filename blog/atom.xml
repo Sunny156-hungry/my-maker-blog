@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Sunny156-hungry.github.io/my-maker-blog/blog</id>
-    <title>My Maker Journey Blog</title>
+    <title>Hi Yixuan Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Sunny156-hungry.github.io/my-maker-blog/blog"/>
-    <subtitle>My Maker Journey Blog</subtitle>
+    <subtitle>Hi Yixuan Blog</subtitle>
     <icon>https://Sunny156-hungry.github.io/my-maker-blog/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
