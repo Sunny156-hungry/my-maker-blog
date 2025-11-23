@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkmy_maker_blog=globalThis.webpackChunkmy_maker_blog||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/my-maker-blog/blog","blogTitle":"Blog","authorsListPath":"/my-maker-blog/blog/authors"}')}}]);
