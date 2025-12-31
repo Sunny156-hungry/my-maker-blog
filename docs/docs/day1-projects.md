@@ -16,7 +16,7 @@ sidebar_position: 2
 
 ### Our Approach | 我们的方法
 
-[Describe your team's strategy]
+遵循上小下大原则，将多个四棱锥拼接在一起，在薄弱处用单根意大利面固定。在最低处垂了一个棉花糖，是参考了高楼大厦里的调谐质量阻尼器，减轻塔的震动。
 
 ### What We Learned | 我们学到了什么
 
@@ -26,7 +26,7 @@ sidebar_position: 2
 
 ### Photos | 照片
 
-[If you have photos, add them here]
+![这是一张我的棉花糖意大利面塔的图片](/img/棉花糖意大利面塔.jpg)
 
 ---
 
@@ -43,9 +43,7 @@ sidebar_position: 2
 
 ### My Favorite Challenge | 我最喜欢的挑战
 
-**Which flag was most interesting? | 哪个 flag 最有趣？**
-Flag4
-
+![这是一张我的Arduino三原色调节器的图片](/img/Arduino三原色调节器.jpg)
 [Share about your favorite challenge and what you learned]
 
 ### Arduino Code Snippet | Arduino 代码片段
@@ -56,11 +54,40 @@ Here's a code snippet from one of my challenges:
 
 ```cpp
 // Add your Arduino code here
-// 在这里添加你的 Arduino 代码
-void setup() {
-  // Your setup code
+int redPin = 9;                            // R – digital 9
+int greenPin = 10;                     // G – digital 10
+int bluePin = 11;                        // B – digital 11
+int potRedPin = 0;                    // potentiometer 1 – analog 0
+int potGreenPin = 1;                // potentiometer 2 – analog 1int potBluePin = 2;                  
+int potBluePin = 2;                               // potentiometer 3 – analog 2
+void setup(){
+pinMode(redPin,OUTPUT);
+pinMode(greenPin,OUTPUT);
+pinMode(bluePin,OUTPUT);
+Serial.begin(9600);                           
+}
+void loop(){
+int potRed = analogRead(potRedPin); 　  
+int potGreen = analogRead(potGreenPin);    
+int potBlue = analogRead(potBluePin); 　  
+int val1 = map(potRed,0,1023,0,255); 　      
+int val2 = map(potGreen,0,1023,0,255);
+int val3 = map(potBlue,0,1023,0,255);
+
+// print value of red, green and blues LEDs from serial port
+Serial.print("Red:");
+Serial.print(val1);
+Serial.print("Green:");
+Serial.print(val2);
+Serial.print("Blue:");
+Serial.println(val3);
+colorRGB(val1,val2,val3); // configure the analog value for RGB LED
+}
 }
 
-void loop() {
-  // Your loop code
+//define the colorRGB function
+void colorRGB(int red, int green, int blue){
+analogWrite(redPin,constrain(red,0,255));
+analogWrite(greenPin,constrain(green,0,255));
+analogWrite(bluePin,constrain(blue,0,255));
 }

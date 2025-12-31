@@ -1,45 +1,59 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Twin Intelligent Agent Project',
+    imgSrc: require('@site/static/img/xiaozhi_AI.jpg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        This project moves beyond single-AI assistants by creating a system where two AI agents interact. They debate, brainstorm, and role-play with each other, generating insights and creativity no single AI could achieve alone. Users become directors or participants, not just questioners. The goal is emergent intelligence, unlocking deeper analysis, creative leaps, and a new paradigm for human-AI collaboration.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'small 3D-modeling work',
+    imgSrc: require('@site/static/img/blender_ghost.jpg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        This little ghost has small hands and ears.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'A stamp with good wishes',
+    imgSrc: require('@site/static/img/3D_print_a_plus.jpg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The little robot wishes everyone excellent grades (A+) in every subject.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({imgSrc, title, description}) {
+  const fullImgSrc = useBaseUrl(imgSrc);
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img 
+          src={imgSrc} 
+          alt={title} 
+          className={styles.featureImage} 
+          style={{ 
+            width: '200px',
+            height: '150px',
+            objectFit: 'cover',
+            borderRadius: '12px',
+            boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)', 
+            transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+            marginBottom: '15px'
+          }}
+          onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
+          onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
+        />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

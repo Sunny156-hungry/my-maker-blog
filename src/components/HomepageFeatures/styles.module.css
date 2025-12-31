@@ -9,3 +9,19 @@
   height: 200px;
   width: 200px;
 }
+.featureImage {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  /* 阴影效果 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75);
+  /* 悬停效果 */
+  transition: transform 0.3s ease;
+}
+
+.featureImage:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.55);
+  transform: scale(1.05);
+}

@@ -23,7 +23,7 @@ sidebar_position: 1
 
 - **Programming | 编程**:  Python, Arduino, R
 - **Hardware | 硬件**:  beginner
-- **Other | 其他**:   art, photography
+- **Other | 其他**:   art, calligraphy
 
 ## Skills I Want to Learn | 我想学习的技能
 
@@ -47,7 +47,7 @@ By the end of this course, I want to:
 
 - [ ] [Goal 1]learn how to use github
 - [ ] [Goal 2]3D design
-- [ ] [Goal 3]learn more about computer
+- [ ] [Goal 3]learn more about AI
 
 ## Contact | 联系方式
 
