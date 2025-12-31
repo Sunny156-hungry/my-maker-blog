@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmy_maker_blog=globalThis.webpackChunkmy_maker_blog||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome to My Blog","permalink":"/my-maker-blog/blog/welcome","unlisted":false,"date":"2025-12-31T03:35:44.000Z"}]}')}}]);
