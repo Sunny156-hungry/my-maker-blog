@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Sunny156-hungry.github.io/my-maker-blog/blog</id>
     <title>Sunny's Maker Journey Blog</title>
-    <updated>2026-01-09T02:56:45.000Z</updated>
+    <updated>2026-01-09T02:59:36.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Sunny156-hungry.github.io/my-maker-blog/blog"/>
     <subtitle>Sunny's Maker Journey Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Welcome to My Blog]]></title>
         <id>https://Sunny156-hungry.github.io/my-maker-blog/blog/welcome</id>
         <link href="https://Sunny156-hungry.github.io/my-maker-blog/blog/welcome"/>
-        <updated>2026-01-09T02:56:45.000Z</updated>
+        <updated>2026-01-09T02:59:36.000Z</updated>
         <summary type="html"><![CDATA[Welcome to my maker journey blog! This is where I'll share my projects, learnings, and experiences.]]></summary>
         <content type="html"><![CDATA[<p>Welcome to my maker journey blog! This is where I'll share my projects, learnings, and experiences.</p>
 <p>More posts coming soon...</p>]]></content>
@@ -22,9 +22,9 @@
         <category label="welcome" term="welcome"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Twin-agent]]></title>
-        <id>https://Sunny156-hungry.github.io/my-maker-blog/blog/Twin-agent</id>
-        <link href="https://Sunny156-hungry.github.io/my-maker-blog/blog/Twin-agent"/>
-        <updated>2026-01-09T02:56:45.000Z</updated>
+        <title type="html"><![CDATA[twin-agents]]></title>
+        <id>https://Sunny156-hungry.github.io/my-maker-blog/blog/twin-agents</id>
+        <link href="https://Sunny156-hungry.github.io/my-maker-blog/blog/twin-agents"/>
+        <updated>2026-01-09T02:59:36.000Z</updated>
     </entry>
 </feed>
