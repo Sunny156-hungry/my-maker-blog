@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkmy_maker_blog=globalThis.webpackChunkmy_maker_blog||[]).push([[560],{2378:e=>{e.exports=JSON.parse('{"tags":[{"label":"welcome","permalink":"/my-maker-blog/blog/tags/welcome","count":1}]}')}}]);

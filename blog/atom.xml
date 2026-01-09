@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Sunny156-hungry.github.io/my-maker-blog/blog</id>
     <title>Sunny's Maker Journey Blog</title>
-    <updated>2026-01-09T03:30:06.000Z</updated>
+    <updated>2025-12-31T03:35:44.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Sunny156-hungry.github.io/my-maker-blog/blog"/>
     <subtitle>Sunny's Maker Journey Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Welcome to My Blog]]></title>
         <id>https://Sunny156-hungry.github.io/my-maker-blog/blog/welcome</id>
         <link href="https://Sunny156-hungry.github.io/my-maker-blog/blog/welcome"/>
-        <updated>2026-01-09T03:30:06.000Z</updated>
+        <updated>2025-12-31T03:35:44.000Z</updated>
         <summary type="html"><![CDATA[Welcome to my maker journey blog! This is where I'll share my projects, learnings, and experiences.]]></summary>
         <content type="html"><![CDATA[<p>Welcome to my maker journey blog! This is where I'll share my projects, learnings, and experiences.</p>
 <p>More posts coming soon...</p>]]></content>
@@ -22,15 +22,50 @@
         <category label="welcome" term="welcome"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[twin-agents]]></title>
-        <id>https://Sunny156-hungry.github.io/my-maker-blog/blog/twin-agents</id>
-        <link href="https://Sunny156-hungry.github.io/my-maker-blog/blog/twin-agents"/>
-        <updated>2026-01-09T03:30:06.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[twin-agents]]></title>
-        <id>https://Sunny156-hungry.github.io/my-maker-blog/blog/twin-agents</id>
-        <link href="https://Sunny156-hungry.github.io/my-maker-blog/blog/twin-agents"/>
-        <updated>2026-01-09T03:30:06.000Z</updated>
+        <title type="html"><![CDATA[Twin Agents]]></title>
+        <id>https://Sunny156-hungry.github.io/my-maker-blog/blog/blog/twin-agents</id>
+        <link href="https://Sunny156-hungry.github.io/my-maker-blog/blog/blog/twin-agents"/>
+        <updated>2025-12-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An interactive AI project featuring Schopenhauer and Hegel]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="project-introduction">Project Introduction<a href="https://sunny156-hungry.github.io/my-maker-blog/blog/blog/twin-agents#project-introduction" class="hash-link" aria-label="Direct link to Project Introduction" title="Direct link to Project Introduction" translate="no">​</a></h2>
+<p><strong>Twin Agents</strong> is an interactive AI project featuring two philosophical agents modeled after <strong>Arthur Schopenhauer</strong> and <strong>Georg Wilhelm Friedrich Hegel</strong>.</p>
+<p>Users can engage in conversations with each agent individually or observe dialogues between the two. Through these interactions, the project aims to spark curiosity about philosophy and help users gain a deeper, more accessible understanding of philosophical ideas.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-project-demo">🎥 Project Demo<a href="https://sunny156-hungry.github.io/my-maker-blog/blog/blog/twin-agents#-project-demo" class="hash-link" aria-label="Direct link to 🎥 Project Demo" title="Direct link to 🎥 Project Demo" translate="no">​</a></h2>
+<iframe src="https://player.bilibili.com/player.html?bvid=BV15JrNBgEDD&amp;high_quality=1" style="width:100%;height:420px;border-radius:12px" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="key-features">Key Features<a href="https://sunny156-hungry.github.io/my-maker-blog/blog/blog/twin-agents#key-features" class="hash-link" aria-label="Direct link to Key Features" title="Direct link to Key Features" translate="no">​</a></h2>
+<ul>
+<li class="">Two AI agents collaborate to overcome common issues in one-on-one AI conversations, such as boredom, stalled discussions, and informational echo chambers.</li>
+<li class="">The project explores the concept of <strong>1 + 1 &gt; 2</strong> in multi-agent intelligence.</li>
+<li class="">The agents tease each other, debate opposing viewpoints, and generate intellectual friction, encouraging users to think critically and stay engaged.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="target-users">Target Users<a href="https://sunny156-hungry.github.io/my-maker-blog/blog/blog/twin-agents#target-users" class="hash-link" aria-label="Direct link to Target Users" title="Direct link to Target Users" translate="no">​</a></h2>
+<ul>
+<li class="">Philosophy enthusiasts</li>
+<li class="">General audiences with little or no formal background in philosophy</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-this-project">Why This Project<a href="https://sunny156-hungry.github.io/my-maker-blog/blog/blog/twin-agents#why-this-project" class="hash-link" aria-label="Direct link to Why This Project" title="Direct link to Why This Project" translate="no">​</a></h2>
+<p>Many people today perceive philosophy as distant from everyday life and therefore unimportant.<br>
+<!-- -->This project challenges that perception by presenting philosophy as <strong>lively, conversational, and relevant</strong>, encouraging reflection and intellectual curiosity through an engaging AI-based device.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="challenges">Challenges<a href="https://sunny156-hungry.github.io/my-maker-blog/blog/blog/twin-agents#challenges" class="hash-link" aria-label="Direct link to Challenges" title="Direct link to Challenges" translate="no">​</a></h2>
+<ul>
+<li class="">Flashing, configuring, and assembling the XiaoZhi AI hardware</li>
+<li class="">Coordinating stable interaction between the two agents</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="unique-characteristics">Unique Characteristics<a href="https://sunny156-hungry.github.io/my-maker-blog/blog/blog/twin-agents#unique-characteristics" class="hash-link" aria-label="Direct link to Unique Characteristics" title="Direct link to Unique Characteristics" translate="no">​</a></h2>
+<ul>
+<li class="">The choice of <strong>Schopenhauer and Hegel</strong> is intentional: their philosophical disagreements create natural tension and contrasting worldviews.</li>
+<li class="">The physical shell is designed as a trendy <strong>“Elegant Gentleman” penguin</strong>, serving as a visual hook and lowering the entry barrier to philosophical engagement.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="next-steps">Next Steps<a href="https://sunny156-hungry.github.io/my-maker-blog/blog/blog/twin-agents#next-steps" class="hash-link" aria-label="Direct link to Next Steps" title="Direct link to Next Steps" translate="no">​</a></h2>
+<p>Future development will explore additional applications of twin-agent systems.<br>
+<!-- -->One example is a <strong>vocabulary-learning mode</strong> featuring two Minion-style agents:</p>
+<ul>
+<li class="">One acts as the quiz master</li>
+<li class="">The other provides encouragement, hints, and emotional support</li>
+</ul>
+<p>This makes learning more interactive, motivating, and emotionally engaging.</p>]]></content>
+        <category label="ai" term="ai"/>
+        <category label="philosophy" term="philosophy"/>
+        <category label="multi-agent" term="multi-agent"/>
     </entry>
 </feed>
