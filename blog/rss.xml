@@ -4,7 +4,7 @@
         <title>Sunny's Maker Journey Blog</title>
         <link>https://Sunny156-hungry.github.io/my-maker-blog/blog</link>
         <description>Sunny's Maker Journey Blog</description>
-        <lastBuildDate>Wed, 31 Dec 2025 03:35:44 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 09 Jan 2026 02:56:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,11 +12,17 @@
             <title><![CDATA[Welcome to My Blog]]></title>
             <link>https://Sunny156-hungry.github.io/my-maker-blog/blog/welcome</link>
             <guid>https://Sunny156-hungry.github.io/my-maker-blog/blog/welcome</guid>
-            <pubDate>Wed, 31 Dec 2025 03:35:44 GMT</pubDate>
+            <pubDate>Fri, 09 Jan 2026 02:56:45 GMT</pubDate>
             <description><![CDATA[Welcome to my maker journey blog! This is where I'll share my projects, learnings, and experiences.]]></description>
             <content:encoded><![CDATA[<p>Welcome to my maker journey blog! This is where I'll share my projects, learnings, and experiences.</p>
 <p>More posts coming soon...</p>]]></content:encoded>
             <category>welcome</category>
+        </item>
+        <item>
+            <title><![CDATA[Twin-agent]]></title>
+            <link>https://Sunny156-hungry.github.io/my-maker-blog/blog/Twin-agent</link>
+            <guid>https://Sunny156-hungry.github.io/my-maker-blog/blog/Twin-agent</guid>
+            <pubDate>Fri, 09 Jan 2026 02:56:45 GMT</pubDate>
         </item>
     </channel>
 </rss>
